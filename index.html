@@ -17,7 +17,7 @@
       <div id="app">
         <h1>Lista delle email</h1>
         <!-- v-if per show del content se sono a 10 email -->
-        <ul v-if="emails.length == 10">
+        <ul v-if="emails.length == maxDataThreshold">
           <!-- print delle email -->
           <li v-for="email in emails">{{email}}</li>
         </ul>

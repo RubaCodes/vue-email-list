@@ -22,12 +22,22 @@ body {
   background-color: white;
   width: 50%;
   margin: auto;
+  padding-bottom: 1rem;
+  overflow: hidden;
 }
 h1 {
   text-align: center;
   padding: 2rem;
 }
+ul {
+  min-height: 200px;
+}
 ul li {
   padding: 0.5rem 2rem;
   list-style: none;
+  background-color: lightcyan;
+  border-bottom: 1px solid red;
+}
+ul li:first-child {
+  border-top: 1px solid red;
 }
