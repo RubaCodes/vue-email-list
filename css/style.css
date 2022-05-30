@@ -4,3 +4,30 @@
   margin: 0;
   padding: 0;
 }
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    21deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(255, 0, 0, 1) 100%
+  );
+}
+
+.container {
+  border-radius: 2rem;
+  background-color: white;
+  width: 50%;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  padding: 2rem;
+}
+ul li {
+  padding: 0.5rem 2rem;
+  list-style: none;
+}
